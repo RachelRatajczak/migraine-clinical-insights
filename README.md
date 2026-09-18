@@ -7,6 +7,7 @@
 An end-to-end data analytics project exploring a clinical migraine dataset. This project simulates a healthcare analytics workflow—moving from raw data hygiene and relational database ingestion to advanced SQL aggregations and export-ready outputs for visual dashboarding.
 
 ## 📊 Project Architecture
+'''
 Migraine_Clinical_Insights/
 │
 ├── data/
@@ -43,7 +44,7 @@ Migraine_Clinical_Insights/
    pip install pandas sqlite3
 
 4. Run the pipeline scripts sequentially:
-    ```bash
+    ```
    python scripts/01_data_cleaning.py
    python scripts/02_sql_ingestion.py
    python scripts/03_exploratory_queries.py
