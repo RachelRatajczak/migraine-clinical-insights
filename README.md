@@ -7,7 +7,7 @@
 An end-to-end data analytics project exploring a clinical migraine dataset. This project simulates a healthcare analytics workflow—moving from raw data hygiene and relational database ingestion to advanced SQL aggregations and export-ready outputs for visual dashboarding.
 
 ## 📊 Project Architecture
-'''
+'''text
 Migraine_Clinical_Insights/
 │
 ├── data/
