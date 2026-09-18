@@ -43,7 +43,7 @@ Migraine_Clinical_Insights/
    pip install pandas sqlite3
 
 4. Run the pipeline scripts sequentially:
-
+    ```bash
    python scripts/01_data_cleaning.py
    python scripts/02_sql_ingestion.py
    python scripts/03_exploratory_queries.py
