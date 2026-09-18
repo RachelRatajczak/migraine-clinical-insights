@@ -23,6 +23,7 @@ Migraine_Clinical_Insights/
 │   └── 03_exploratory_queries.py     # SQL analysis & metric aggregation
 │
 └── README.md
+```
 
 ##  Technical Stack & Skills Demonstrated
 * **Python (pandas):** Automated data cleaning, schema normalization, missing value handling, and duplicate management.
