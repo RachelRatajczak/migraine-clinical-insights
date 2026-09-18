@@ -6,8 +6,8 @@
 
 An end-to-end data analytics project exploring a clinical migraine dataset. This project simulates a healthcare analytics workflow—moving from raw data hygiene and relational database ingestion to advanced SQL aggregations and export-ready outputs for visual dashboarding.
 
-## 📊 Project Architecture
-'''text
+## Project Architecture
+```text
 Migraine_Clinical_Insights/
 │
 ├── data/
@@ -24,19 +24,19 @@ Migraine_Clinical_Insights/
 │
 └── README.md
 
-## 🛠️ Technical Stack & Skills Demonstrated
+##  Technical Stack & Skills Demonstrated
 * **Python (pandas):** Automated data cleaning, schema normalization, missing value handling, and duplicate management.
 * **SQL (SQLite):** Relational database ingestion (`to_sql`), table creation, and analytical querying using `GROUP BY`, `CASE` conditional bucketing, and aggregate functions (`AVG`, `COUNT`, `ROUND`).
 * **Tableau Prep Workflow:** Exporting clean, pre-aggregated relational tables (`.csv`) optimized for clean dashboard performance.
 
-## 🔍 Key Analytical Highlights
+##  Key Analytical Highlights
 1. **Clinical Data Hygiene:** Standardized raw clinical strings (lowercase, stripped spaces, underscore notation) and resolved structural anomalies to ensure data integrity.
 2. **Relational Ingestion:** Built a repeatable data pipeline piping pandas DataFrames directly into a local SQLite instance (`clinical_encounters` table).
 3. **Advanced SQL Aggregations:** 
    * Calculated case volume and average pain intensity broken down by clinical migraine type.
    * Utilized conditional `CASE` statements to segment patient demographics into age brackets (`18-29`, `30-44`, etc.) while filtering out null values to assess severity trends safely.
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 1. Clone the repository and navigate into the project directory.
 2. Set up and activate your Python virtual environment.
 3. Install dependencies:
