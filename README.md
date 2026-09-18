@@ -1,4 +1,4 @@
-# Migraine Clinical Insights & Operational Burden
+# Migraine Clinical Insights
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey.svg)](https://www.sqlite.org/)
